@@ -1,0 +1,7 @@
+i found and created indexes on columns which are frequently used in WHERE clauses, JOIN conditions,ORDER BY clauses
+i avoided creating so many indexes
+i avoided using SELECT to retrieve all columns
+i used EXISTS IN JOIN to filter data
+i tried Full-page caching Object caching Page fragment caching HTTP caching
+i usd redis as cache layer
+i used cache control header Cache-Control
